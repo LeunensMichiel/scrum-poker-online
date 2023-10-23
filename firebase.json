@@ -20,10 +20,12 @@
   },
   "emulators": {
     "firestore": {
-      "port": 8081
+      "port": 8081,
+      "host": "127.0.0.1"
     },
     "hosting": {
-      "port": 5000
+      "port": 5000,
+      "host": "127.0.0.1"
     }
   }
 }
